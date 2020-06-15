@@ -13,7 +13,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class FoodCategory extends AppiumHelper  {
 
-	@AndroidFindBy(xpath = "//android.widget.ImageView[@id='com.getir.casestudy.dev:id/btnAdd'[1]")
+	@AndroidFindBy(xpath = "//android.widget.ImageView[@clickable='true']")
 	private AndroidElement addProductIcon;
 
 	@AndroidFindBy(id = PREFIX + "a_toolbar_getir10TitleTextView")

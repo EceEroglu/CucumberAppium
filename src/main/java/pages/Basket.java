@@ -20,7 +20,7 @@ public class Basket extends AppiumHelper  {
 	@AndroidFindBy(id = PREFIX + "ga_toolbar_leftIconImageView")
 	private AndroidElement goBackButton;
 
-	@AndroidFindBy(xpath = "//android.widget.ImageView[@id='com.getir.casestudy.dev:id/btnAdd']")
+	@AndroidFindBy(xpath = "//android.widget.ImageView[@clickable='true']")
 	private AndroidElement addProductIcon;
 
 	@AndroidFindBy(xpath = "//android.widget.ImageView[@id='com.getir.casestudy.dev:id/btnRemove']")
