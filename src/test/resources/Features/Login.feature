@@ -1,6 +1,6 @@
 Feature: Login scenarios
 
-  @Before
+  @Before @Positive
   Scenario Outline: Login with invalid username
     Given I am on login screen
     When I enter username as "<username>"
@@ -12,7 +12,7 @@ Feature: Login scenarios
       | username    | password |
       | ece@ece.com |    12345 |
 
-
+@Negative
   Scenario Outline: Login and Logout with valid credentials
     Given I am on login screen
     When I enter username as "<username>"

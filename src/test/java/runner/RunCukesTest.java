@@ -7,8 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "classpath:Features" }, plugin = { "pretty", "html:target/cucumber-html-report",
 		"json:target/cucumber-reports/cucumber.json", "junit:target/cucumber-reports/cucumber.xml",
-		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, glue = {
-				"stepdefs" }, monochrome = true, dryRun = false)
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, monochrome = true,  glue = "stepdefs")
 
 public class RunCukesTest {
 

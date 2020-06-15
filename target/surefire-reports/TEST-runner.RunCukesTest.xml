@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\eceer\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3752342455169067725.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\eceer\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5288138658832635495.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1254"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\eceer\AppData\Local\Android\Sdk\tools\bin;C:\Users\eceer\AppData\Local\Android\Sdk\tools\;C:\Users\eceer\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\eceer\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\eceer\AppData\Local\Programs\Python\Python37\;C:\Users\eceer\AppData\Local\Microsoft\WindowsApps;C:\Users\eceer\AppData\Roaming\npm;C:\Users\eceer\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="tr"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
