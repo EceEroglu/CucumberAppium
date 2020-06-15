@@ -9,7 +9,9 @@ import pages.Profile;
 import pages.Toolbar;
 
 
+
 public class LoginStepDef extends BaseTestClass {
+	
 
 	@Given("^I am on login screen$")
 	public void given_i_am_on_login_screen() throws Throwable {

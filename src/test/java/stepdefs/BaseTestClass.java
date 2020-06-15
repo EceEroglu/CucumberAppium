@@ -2,7 +2,6 @@ package stepdefs;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-
 import helper.AppiumBaseClass;
 import helper.AppiumController;
 import pages.BabyCategory;
@@ -13,6 +12,7 @@ import pages.Login;
 import pages.Payment;
 import pages.Profile;
 import pages.Toolbar;
+import utils.MyScreenRecorder;
 import pages.MilkCategory;
 
 
@@ -36,12 +36,18 @@ public class BaseTestClass extends AppiumBaseClass {
             case ANDROID:
                 loginPage = new Login(driver());
                 break;
-
+        		
         }
+        
+        MyScreenRecorder.startRecording("start");
     }
 
     @AfterSuite
-    public void tearDown() {
+    public void tearDown() throws Exception {
         AppiumController.instance.stop();
+        
+        MyScreenRecorder.stopRecording();
     }
+    
+   
 }

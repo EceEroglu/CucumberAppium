@@ -1,6 +1,6 @@
 package stepdefs;
 
-import java.net.MalformedURLException;
+
 import helper.AppiumController;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -24,7 +24,7 @@ public class AddProductStepDef extends BaseTestClass {
 	Payment payment = new Payment(driver());
 
 	@And("^I am logged in$")
-	public void i_am_logged_in() throws MalformedURLException {
+	public void i_am_logged_in() throws Exception {
 
 		AppiumController.instance.start();
 		switch (AppiumController.executionOS) {

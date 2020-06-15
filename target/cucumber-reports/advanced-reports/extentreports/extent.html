@@ -58,7 +58,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Haz 15, 2020 03:57:14 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Haz 15, 2020 06:21:18 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -186,7 +186,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Add product scenarios</span>
-						<span class='test-time'>Haz 15, 2020 03:57:15 PM</span>
+						<span class='test-time'>Haz 15, 2020 06:21:18 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -197,7 +197,7 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario outline node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 1m 41s+248ms</span>
+	<span class='duration right label'>0h 2m 20s+193ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario Outline: Validate products in basket</div>
 		<table class='runtime-table table-striped table'><tr><td>title</td><td>price</td></tr><tr><td>Ürün 25</td><td>25</td></tr><tr><td>Ürün 49</td><td>49</td></tr><tr><td>Ürün 97</td><td>97</td></tr></table>
@@ -294,46 +294,14 @@
 				</li>
 				<li test-id='23' class='gc then fail' status='fail'>
 					<h6 class="step-name" title="AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(String,String)"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then I click on add icon for food product title "Ürün 49" and price of "49"</h6>
-					<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-C0IFO17', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, deviceName: EmulatorEce, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: ebcfeaa0-7a9e-4f15-b1af-4378afe8326a
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
-	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:40)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
-	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at helper.AppiumHelper.waitUntilElementVisible(AppiumHelper.java:60)
-	at helper.AppiumHelper.clickElement(AppiumHelper.java:16)
-	at pages.FoodCategory.addProduct(FoodCategory.java:44)
-	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:52)
+					<textarea disabled class="code-block">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at org.testng.Assert.assertEquals(Assert.java:761)
+	at pages.FoodCategory.isCategoryDetailPageLoaded(FoodCategory.java:34)
+	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:53)
 	at ✽.I click on add icon for food product title "Ürün 49" and price of "49"(classpath:Features/AddProduct.feature:8)
 </textarea>
 				</li>
@@ -400,13 +368,13 @@ Session ID: ebcfeaa0-7a9e-4f15-b1af-4378afe8326a
 				</li>
 				<li test-id='39' class='gc then fail' status='fail'>
 					<h6 class="step-name" title="AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(String,String)"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then I click on add icon for food product title "Ürün 97" and price of "97"</h6>
-					<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //android.widget.ImageView[@clickable='true']' does not exist in DOM anymore
+					<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-C0IFO17', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, deviceName: EmulatorEce, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c53386b6-0906-4d0b-9364-50e2a26bed51
+Session ID: 697c2ad7-b9a4-467a-ab11-5fdd036f34d8
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -492,7 +460,7 @@ Session ID: c53386b6-0906-4d0b-9364-50e2a26bed51
 	</ul>
 </div>
 <div class='scenario outline node' test-id='51' status='fail'>
-	<span class='duration right label'>0h 2m 17s+540ms</span>
+	<span class='duration right label'>0h 1m 36s+808ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario Outline: Validate add more products in basket</div>
 		<table class='runtime-table table-striped table'><tr><td>title</td><td>price</td></tr><tr><td>Ürün 25</td><td>25</td></tr><tr><td>Ürün 49</td><td>49</td></tr><tr><td>Ürün 97</td><td>97</td></tr></table>
@@ -617,13 +585,13 @@ Session ID: c53386b6-0906-4d0b-9364-50e2a26bed51
 				</li>
 				<li test-id='79' class='gc then fail' status='fail'>
 					<h6 class="step-name" title="AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(String,String)"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then I click on add icon for food product title "Ürün 49" and price of "49"</h6>
-					<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+					<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //android.widget.ImageView[@clickable='true']' does not exist in DOM anymore
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-C0IFO17', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, deviceName: EmulatorEce, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
+Session ID: 75489124-73af-4803-bd87-d889caef6e2d
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -751,14 +719,46 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 				</li>
 				<li test-id='102' class='gc then fail' status='fail'>
 					<h6 class="step-name" title="AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(String,String)"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then I click on add icon for food product title "Ürün 97" and price of "97"</h6>
-					<textarea disabled class="code-block">java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:751)
-	at org.testng.Assert.assertEquals(Assert.java:761)
-	at pages.FoodCategory.isCategoryDetailPageLoaded(FoodCategory.java:34)
-	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:53)
+					<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C0IFO17', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, deviceName: EmulatorEce, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7fbc09d8-4117-4530-8fbc-fd30c52a08cb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:40)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at helper.AppiumHelper.waitUntilElementVisible(AppiumHelper.java:60)
+	at helper.AppiumHelper.clickElement(AppiumHelper.java:16)
+	at pages.FoodCategory.addProduct(FoodCategory.java:44)
+	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:52)
 	at ✽.I click on add icon for food product title "Ürün 97" and price of "97"(classpath:Features/AddProduct.feature:30)
 </textarea>
 				</li>
@@ -843,7 +843,7 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='121'>
 					<div class='test-heading'>
 						<span class='test-name'>Login scenarios</span>
-						<span class='test-time'>Haz 15, 2020 04:01:15 PM</span>
+						<span class='test-time'>Haz 15, 2020 06:25:16 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -858,7 +858,7 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 		<span class='category label'>@Before</span>
 		<span class='category label'>@Positive</span>
 	</div>
-	<span class='duration right label'>0h 0m 55s+329ms</span>
+	<span class='duration right label'>0h 0m 53s+923ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: Login with invalid username</div>
 		<table class='runtime-table table-striped table'><tr><td>username</td><td>password</td></tr><tr><td>ece@ece.com</td><td>12345</td></tr></table>
@@ -895,7 +895,7 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 	<div class='category-list'>
 		<span class='category label'>@Negative</span>
 	</div>
-	<span class='duration right label'>0h 0m 19s+121ms</span>
+	<span class='duration right label'>0h 0m 19s+230ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: Login and Logout with valid credentials</div>
 		<table class='runtime-table table-striped table'><tr><td>username</td><td>password</td></tr><tr><td>hello@getir.com</td><td>hello</td></tr></table>
@@ -1000,12 +1000,12 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 								</thead>
 								<tbody>
 									<tr>
-										<td>Haz 15, 2020 04:01:15 PM</td>
+										<td>Haz 15, 2020 06:25:16 PM</td>
 										<td class='linked' test-id='122'>Login with invalid username</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Haz 15, 2020 04:01:15 PM</td>
+										<td>Haz 15, 2020 06:25:16 PM</td>
 										<td class='linked' test-id='123'>Login with invalid username</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -1038,12 +1038,12 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 								</thead>
 								<tbody>
 									<tr>
-										<td>Haz 15, 2020 04:01:15 PM</td>
+										<td>Haz 15, 2020 06:25:16 PM</td>
 										<td class='linked' test-id='122'>Login with invalid username</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Haz 15, 2020 04:01:15 PM</td>
+										<td>Haz 15, 2020 06:25:16 PM</td>
 										<td class='linked' test-id='123'>Login with invalid username</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -1076,12 +1076,12 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 								</thead>
 								<tbody>
 									<tr>
-										<td>Haz 15, 2020 04:02:11 PM</td>
+										<td>Haz 15, 2020 06:26:11 PM</td>
 										<td class='linked' test-id='130'>Login and Logout with valid credentials</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Haz 15, 2020 04:02:11 PM</td>
+										<td>Haz 15, 2020 06:26:11 PM</td>
 										<td class='linked' test-id='131'>Login and Logout with valid credentials</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -1134,7 +1134,7 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 								</thead>
 								<tbody>
 									<tr>
-										<td>Haz 15, 2020 03:57:34 PM</td>
+										<td>Haz 15, 2020 06:21:36 PM</td>
 										<td class='linked' test-id='7'>Then I click on add icon for food product title "Ürün 25" and price of "25"</td>
 										<td>
 											<textarea disabled class="code-block">java.lang.AssertionError: expected [false] but found [true]
@@ -1150,7 +1150,23 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 										</td>
 									</tr>
 									<tr>
-										<td>Haz 15, 2020 03:59:13 PM</td>
+										<td>Haz 15, 2020 06:22:37 PM</td>
+										<td class='linked' test-id='23'>Then I click on add icon for food product title "Ürün 49" and price of "49"</td>
+										<td>
+											<textarea disabled class="code-block">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at org.testng.Assert.assertEquals(Assert.java:761)
+	at pages.FoodCategory.isCategoryDetailPageLoaded(FoodCategory.java:34)
+	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:53)
+	at ✽.I click on add icon for food product title "Ürün 49" and price of "49"(classpath:Features/AddProduct.feature:8)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Haz 15, 2020 06:23:56 PM</td>
 										<td class='linked' test-id='56'>Then I click on add icon for food product title "Ürün 25" and price of "25"</td>
 										<td>
 											<textarea disabled class="code-block">java.lang.AssertionError: expected [false] but found [true]
@@ -1162,22 +1178,6 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 	at pages.FoodCategory.isCategoryDetailPageLoaded(FoodCategory.java:34)
 	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:53)
 	at ✽.I click on add icon for food product title "Ürün 25" and price of "25"(classpath:Features/AddProduct.feature:30)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Haz 15, 2020 04:00:32 PM</td>
-										<td class='linked' test-id='102'>Then I click on add icon for food product title "Ürün 97" and price of "97"</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:751)
-	at org.testng.Assert.assertEquals(Assert.java:761)
-	at pages.FoodCategory.isCategoryDetailPageLoaded(FoodCategory.java:34)
-	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:53)
-	at ✽.I click on add icon for food product title "Ürün 97" and price of "97"(classpath:Features/AddProduct.feature:30)
 </textarea>
 										</td>
 									</tr>
@@ -1203,8 +1203,8 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 								</thead>
 								<tbody>
 									<tr>
-										<td>Haz 15, 2020 03:58:35 PM</td>
-										<td class='linked' test-id='23'>Then I click on add icon for food product title "Ürün 49" and price of "49"</td>
+										<td>Haz 15, 2020 06:23:36 PM</td>
+										<td class='linked' test-id='39'>Then I click on add icon for food product title "Ürün 97" and price of "97"</td>
 										<td>
 											<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
@@ -1212,55 +1212,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-C0IFO17', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, deviceName: EmulatorEce, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: ebcfeaa0-7a9e-4f15-b1af-4378afe8326a
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
-	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:40)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
-	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at helper.AppiumHelper.waitUntilElementVisible(AppiumHelper.java:60)
-	at helper.AppiumHelper.clickElement(AppiumHelper.java:16)
-	at pages.FoodCategory.addProduct(FoodCategory.java:44)
-	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:52)
-	at ✽.I click on add icon for food product title "Ürün 49" and price of "49"(classpath:Features/AddProduct.feature:8)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Haz 15, 2020 03:58:55 PM</td>
-										<td class='linked' test-id='39'>Then I click on add icon for food product title "Ürün 97" and price of "97"</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //android.widget.ImageView[@clickable='true']' does not exist in DOM anymore
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-C0IFO17', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, deviceName: EmulatorEce, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c53386b6-0906-4d0b-9364-50e2a26bed51
+Session ID: 697c2ad7-b9a4-467a-ab11-5fdd036f34d8
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1299,16 +1251,16 @@ Session ID: c53386b6-0906-4d0b-9364-50e2a26bed51
 										</td>
 									</tr>
 									<tr>
-										<td>Haz 15, 2020 04:00:13 PM</td>
+										<td>Haz 15, 2020 06:24:55 PM</td>
 										<td class='linked' test-id='79'>Then I click on add icon for food product title "Ürün 49" and price of "49"</td>
 										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+											<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //android.widget.ImageView[@clickable='true']' does not exist in DOM anymore
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-C0IFO17', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, deviceName: EmulatorEce, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
+Session ID: 75489124-73af-4803-bd87-d889caef6e2d
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1343,6 +1295,54 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 	at pages.FoodCategory.addProduct(FoodCategory.java:44)
 	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:52)
 	at ✽.I click on add icon for food product title "Ürün 49" and price of "49"(classpath:Features/AddProduct.feature:30)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Haz 15, 2020 06:25:14 PM</td>
+										<td class='linked' test-id='102'>Then I click on add icon for food product title "Ürün 97" and price of "97"</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C0IFO17', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, databaseEnabled: false, desired: {app: C:\Users\eceer\Desktop\Appi..., appActivity: com.getir.casestudy.modules..., appPackage: com.getir.casestudy.dev, deviceName: EmulatorEce, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7fbc09d8-4117-4530-8fbc-fd30c52a08cb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:40)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at helper.AppiumHelper.waitUntilElementVisible(AppiumHelper.java:60)
+	at helper.AppiumHelper.clickElement(AppiumHelper.java:16)
+	at pages.FoodCategory.addProduct(FoodCategory.java:44)
+	at stepdefs.AddProductStepDef.i_click_on_add_icon_for_food_product_title_and_price_of(AddProductStepDef.java:52)
+	at ✽.I click on add icon for food product title "Ürün 97" and price of "97"(classpath:Features/AddProduct.feature:30)
 </textarea>
 										</td>
 									</tr>
@@ -1386,19 +1386,19 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Haz 15, 2020 03:57:14 PM</div>
+					<div class='panel-lead'>Haz 15, 2020 06:21:18 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Haz 15, 2020 04:02:31 PM</div>
+			 		<div class='panel-lead'>Haz 15, 2020 06:26:31 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 5m 16s+244ms</div>
+					<div class='panel-lead'>0h 5m 13s+370ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -1483,7 +1483,7 @@ Session ID: 0535611b-2dad-4279-a126-49fa6d53a10b
 		</script>
 		<script>
 			var timeline = {
-			        "Add product scenarios":239.455,"Login scenarios":74.944
+			        "Add product scenarios":237.792,"Login scenarios":73.697
 			};
 		</script>
 	
