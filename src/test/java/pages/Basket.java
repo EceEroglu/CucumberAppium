@@ -77,5 +77,14 @@ public class Basket extends AppiumHelper  {
 		Assert.assertEquals(actualText,expectedText);
 		
 	}
+	
+	public void verifyAddedTotalAmount() {
+		
+		String actualText = addedTotalAmount.getText();
+		String expectedText = "Total Amount : 342 ₺";
+		
+		Assert.assertEquals(actualText,expectedText);
+		
+	}
 
 }
