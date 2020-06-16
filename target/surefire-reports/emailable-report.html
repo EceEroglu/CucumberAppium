@@ -9,9 +9,30 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1.114</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">415</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">runner.RunCukesTest</td><td><a href="#m0">null</a></td><td rowspan="1">1592294283360</td><td rowspan="1">1</td></tr></tbody>
 </table>
-<h2>Surefire test</h2></body>
+<h2>Surefire test</h2><h3 id="m0">runner.RunCukesTest#null</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in stepdefs.LoginStepDef.given_i_am_on_login_screen() in file:/C:/Users/eceer/Desktop/AppiumCucumberExample/target/test-classes/ and stepdefs.AddProductStepDef.ı_am_on_login_screen() in file:/C:/Users/eceer/Desktop/AppiumCucumberExample/target/test-classes/
+	at cucumber.runner.Glue.addStepDefinition(Glue.java:38)
+	at cucumber.runtime.java.JavaBackend.addStepDefinition(JavaBackend.java:170)
+	at cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:64)
+	at cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:41)
+	at cucumber.runtime.java.JavaBackend.loadGlue(JavaBackend.java:111)
+	at cucumber.runner.Runner.&lt;init&gt;(Runner.java:39)
+	at cucumber.runner.ThreadLocalRunnerSupplier.createRunner(ThreadLocalRunnerSupplier.java:42)
+	at cucumber.runner.ThreadLocalRunnerSupplier.access$000(ThreadLocalRunnerSupplier.java:13)
+	at cucumber.runner.ThreadLocalRunnerSupplier$1.initialValue(ThreadLocalRunnerSupplier.java:22)
+	at cucumber.runner.ThreadLocalRunnerSupplier$1.initialValue(ThreadLocalRunnerSupplier.java:19)
+	at java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:180)
+	at java.lang.ThreadLocal.get(ThreadLocal.java:170)
+	at cucumber.runner.ThreadLocalRunnerSupplier.get(ThreadLocalRunnerSupplier.java:38)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:173)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
 </html>

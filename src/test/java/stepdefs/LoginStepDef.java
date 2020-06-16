@@ -18,34 +18,34 @@ public class LoginStepDef extends BaseTestClass {
 		AppiumController.instance.start();
 		switch (AppiumController.executionOS) {
 		case ANDROID:
-			loginPage = new Login(driver());
-			loginPage.isLoginPageLoaded();
+			login = new Login(driver());
+			login.isLoginPageLoaded();
 			break;
 		}
 	}
 
 	@When("^I enter username as \"([^\"]*)\"$")
 	 public void when_i_enter_username_as(String username) throws InterruptedException {
-        loginPage.enterUserName(username);
+        login.enterUserName(username);
     }
 
 	@When("^I enter password as \"([^\"]*)\"$")
 	public void when_i_enter_password_as(String password) throws Throwable {
-		loginPage.enterPassword(password);
+		login.enterPassword(password);
 	}
 	
 
 	@When("^I click on submit button$")
 	public void i_click_on_submit_button() {
 
-		loginPage.clickLoginButton();
+		login.clickLoginButton();
 
 	}
 
 	@Then("^I should get toast message$")
 	public void i_should_get_toast_message() {
 
-		loginPage.isToastMessageVisible();
+		login.isToastMessageVisible();
 
 	}
 
@@ -69,7 +69,7 @@ public class LoginStepDef extends BaseTestClass {
 	@Then("^I navigate to login page$")
 	public void i_navigate_to_login_page() {
 
-		loginPage.isLoginPageLoaded();
+		login.isLoginPageLoaded();
 
 	}
 

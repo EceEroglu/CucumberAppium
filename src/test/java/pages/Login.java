@@ -47,16 +47,7 @@ public class Login extends AppiumHelper {
 	public void clickLoginButton() {
 		clickElement(loginButton);
 	}
-	
-	public void login(String username, String password) {
 		
-		userNameTextBox.sendKeys(username);
-		passwordTextBox.sendKeys(password);
-		clickElement(loginButton);
-	}
-
-
-	
 	public void isToastMessageVisible() {
 		Assert.assertFalse(isVisible(toastMessage));
 	}

@@ -35,7 +35,7 @@ public class MilkCategory extends AppiumHelper  {
 		Assert.assertEquals(true, isVisible(categoryDetailTitle));
 	}
 
-	public void isFoodProductVisible(MobileElement milkProduct) {
+	public void isMilkProductVisible() {
 
 		milkProduct.isDisplayed();
 	}

@@ -1,11 +1,11 @@
 pages\MilkCategory.class
 pages\BabyCategory.class
+utils\MyScreenRecorder.class
 stepdefs\AddProductStepDef.class
 helper\AppiumBaseClass.class
 pages\Basket.class
 pages\Payment.class
 stepdefs\LoginStepDef.class
-stepdefs\AddProductStepDef$1.class
 pages\FoodCategory.class
 pages\Toolbar.class
 helper\AppiumController$OS.class

@@ -18,15 +18,15 @@ import pages.MilkCategory;
 
 public class BaseTestClass extends AppiumBaseClass {
 
-    protected Login loginPage;
-    protected Toolbar toolbarPage;
-    protected Profile profilePage;
-    protected Categories categoriesPage;
-    protected FoodCategory foodCategoryPage;
-    protected MilkCategory milkCategoryPage;
-    protected BabyCategory babyCategoryPage;
-    protected Basket basketPage;
-    protected Payment paymentPage; 
+    protected Login login;
+    protected Toolbar toolbar;
+    protected Profile profile;
+    protected Categories categories;
+    protected FoodCategory foodCategory;
+    protected MilkCategory milkCategory;
+    protected BabyCategory babyCategory;
+    protected Basket basket;
+    protected Payment payment; 
     
 
     @BeforeSuite
@@ -34,19 +34,19 @@ public class BaseTestClass extends AppiumBaseClass {
         AppiumController.instance.start();
         switch (AppiumController.executionOS) {
             case ANDROID:
-                loginPage = new Login(driver());
+                login = new Login(driver());
                 break;
         		
         }
         
-        MyScreenRecorder.startRecording("start");
+        
     }
 
     @AfterSuite
     public void tearDown() throws Exception {
         AppiumController.instance.stop();
         
-        MyScreenRecorder.stopRecording();
+       
     }
     
    
