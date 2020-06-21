@@ -115,7 +115,7 @@ formatter.match({
   "location": "AddProductStepDef.ı_click_on_food_category()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:751)\r\n\tat org.testng.Assert.assertEquals(Assert.java:761)\r\n\tat pages.FoodCategory.isCategoryDetailPageLoaded(FoodCategory.java:34)\r\n\tat stepdefs.AddProductStepDef.ı_click_on_food_category(AddProductStepDef.java:41)\r\n\tat ✽.I click on food category(classpath:Features/AddProduct.feature:6)\r\n",
+  "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:751)\r\n\tat org.testng.Assert.assertEquals(Assert.java:761)\r\n\tat pages.FoodCategory.isCategoryDetailPageLoaded(FoodCategory.java:33)\r\n\tat stepdefs.AddProductStepDef.ı_click_on_food_category(AddProductStepDef.java:40)\r\n\tat ✽.I click on food category(classpath:Features/AddProduct.feature:6)\r\n",
   "status": "failed"
 });
 formatter.step({
@@ -381,7 +381,7 @@ formatter.match({
   "location": "AddProductStepDef.ı_click_on_food_category()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:751)\r\n\tat org.testng.Assert.assertEquals(Assert.java:761)\r\n\tat pages.FoodCategory.isCategoryDetailPageLoaded(FoodCategory.java:34)\r\n\tat stepdefs.AddProductStepDef.ı_click_on_food_category(AddProductStepDef.java:41)\r\n\tat ✽.I click on food category(classpath:Features/AddProduct.feature:27)\r\n",
+  "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:751)\r\n\tat org.testng.Assert.assertEquals(Assert.java:761)\r\n\tat pages.FoodCategory.isCategoryDetailPageLoaded(FoodCategory.java:33)\r\n\tat stepdefs.AddProductStepDef.ı_click_on_food_category(AddProductStepDef.java:40)\r\n\tat ✽.I click on food category(classpath:Features/AddProduct.feature:27)\r\n",
   "status": "failed"
 });
 formatter.step({
@@ -479,7 +479,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddProductStepDef.ı_verify_of_my_products(String)"
+  "location": "AddProductStepDef.i_verify_of_my_products(String)"
 });
 formatter.result({
   "status": "skipped"
@@ -519,7 +519,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddProductStepDef.ı_verify_of_my_products(String)"
+  "location": "AddProductStepDef.i_verify_of_my_products(String)"
 });
 formatter.result({
   "status": "skipped"

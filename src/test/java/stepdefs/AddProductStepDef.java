@@ -44,7 +44,6 @@ public class AddProductStepDef extends BaseTestClass {
 	@Then("^I click on add icon for food product$")
 	public void ı_click_on_add_icon_for_food_product() {
 
-		foodCategory.isFoodProductVisible();
 		foodCategory.addProduct();
 
 	}
@@ -116,7 +115,7 @@ public class AddProductStepDef extends BaseTestClass {
 	}
 
 	@Then("^I verify \"([^\"]*)\" of my products$")
-	public void ı_verify_of_my_products(String string) {
+	public void i_verify_of_my_products(String string) {
 
 	}
 

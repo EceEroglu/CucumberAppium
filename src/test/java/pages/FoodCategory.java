@@ -5,15 +5,14 @@ import org.testng.Assert;
 
 import helper.AppiumHelper;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
+public class FoodCategory extends AppiumHelper {
 
-public class FoodCategory extends AppiumHelper  {
+	@AndroidFindBy(xpath = "//android.widget.ImageView[@bounds='[211,1007][329,1125]']")
 
-	@AndroidFindBy(xpath = "//android.widget.ImageView[@clickable='true']")
 	private AndroidElement addProductIcon;
 
 	@AndroidFindBy(id = PREFIX + "a_toolbar_getir10TitleTextView")
@@ -43,7 +42,7 @@ public class FoodCategory extends AppiumHelper  {
 
 		clickElement(addProductIcon);
 	}
-	
+
 	public void navigateBack() {
 
 		clickElement(navigateBackIcon);
