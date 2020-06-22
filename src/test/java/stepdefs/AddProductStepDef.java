@@ -60,7 +60,7 @@ public class AddProductStepDef extends BaseTestClass {
 	public void ı_navigate_to_milk_category() {
 
 		categories.isCategoriesPageLoaded();
-		milkCategory.isMilkProductVisible();
+		
 
 	}
 

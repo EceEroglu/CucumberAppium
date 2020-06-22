@@ -12,10 +12,10 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class BabyCategory extends AppiumHelper {
 	
-	@AndroidFindBy(xpath = "//android.widget.ImageView[@clickable='true']")
+	@AndroidFindBy(id = PREFIX + "btnAdd")
 	private AndroidElement addProductIcon;
 
-	@AndroidFindBy(id = PREFIX + "a_toolbar_getir10TitleTextView")
+	@AndroidFindBy(id = PREFIX + "ga_toolbar_getir10TitleTextView")
 	private AndroidElement categoryDetailTitle;
 
 	@AndroidFindBy(id = PREFIX + "ga_toolbar_leftIconImageView")
