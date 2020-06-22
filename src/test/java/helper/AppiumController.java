@@ -5,7 +5,6 @@ import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-
 import java.io.File;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;

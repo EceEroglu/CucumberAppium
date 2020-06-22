@@ -96,7 +96,6 @@ public class AddProductStepDef extends BaseTestClass {
     @Then("^I verify total amount of my products$")
     public void ı_verify_total_amount_of_my_products() {
 
-        basket.isBasketPageLoaded();
         basket.verifyTotalAmount();
 
     }
@@ -104,8 +103,7 @@ public class AddProductStepDef extends BaseTestClass {
     @And("^I delete my products$")
     public void ı_delete_my_products() {
 
-        basket.deleteProduct();
-
+            basket.deleteProduct();
     }
 
     @Then("^I verify \"([^\"]*)\" of my products$")
