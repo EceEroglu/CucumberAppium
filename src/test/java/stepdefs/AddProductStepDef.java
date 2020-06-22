@@ -111,34 +111,38 @@ public class AddProductStepDef extends BaseTestClass {
     @Then("^I verify \"([^\"]*)\" of my products$")
     public void i_verify_of_my_products(String string) {
 
+        basket.verifyTotalAmount();
+
     }
 
     @And("^I add one more food product$")
     public void ı_add_one_more_food_product() {
 
+        basket.addMoreProduct();
+
     }
 
     @And("^I add one more milk product$")
     public void ı_add_one_more_milk_product() {
-
+        basket.addMoreProduct();
     }
 
     @And("^I add one more baby product$")
     public void ı_add_one_more_baby_product() {
-
+        basket.addMoreProduct();
     }
 
     @And("^I navigate to payment page$")
     public void ı_navigate_to_payment_page() {
 
         basket.navigateBack();
-        payment.isPaymentPageLoaded();
 
     }
 
     @Then("^I verify \"([^\"]*)\" of my products from payment page$")
     public void ı_verify_of_my_products_from_payment_page(String string) {
 
+        payment.verifyTotalAmount();
     }
 
 }
