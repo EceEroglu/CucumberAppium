@@ -39,7 +39,6 @@ public class AddProductStepDef extends BaseTestClass {
     public void ı_click_on_food_category() {
 
         categories.selectFoodCategory();
-        foodCategory.isCategoryDetailPageLoaded();
 
     }
 
@@ -61,7 +60,7 @@ public class AddProductStepDef extends BaseTestClass {
     @And("^I navigate to milk category$")
     public void ı_navigate_to_milk_category() {
 
-        categories.isCategoriesPageLoaded();
+        categories.selectMilkCategory();
 
 
     }
@@ -73,17 +72,10 @@ public class AddProductStepDef extends BaseTestClass {
 
     }
 
-    @And("^I scroll down for baby category$")
-    public void ı_scroll_down_for_baby_category() {
+    @And("^I scroll and select baby category$")
+    public void ı_scroll_and_select_baby_category() {
 
         categories.scrollSelectBabyCategory();
-
-    }
-
-    @And("^I navigate to baby category detail page$")
-    public void ı_navigate_to_baby_category_detail_page() {
-
-        babyCategory.isCategoryDetailPageLoaded();
 
     }
 

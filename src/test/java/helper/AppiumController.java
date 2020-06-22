@@ -36,7 +36,6 @@ public class AppiumController {
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities.setCapability("platformName", "Android");
 			capabilities.setCapability("deviceName", "EmulatorEce");
-			// capabilities.setCapability("automationName", "UiAutomator2");
 			capabilities.setCapability("app", app.getAbsolutePath());
 			capabilities.setCapability("appPackage", "com.getir.casestudy.dev");
 			capabilities.setCapability("appActivity", "com.getir.casestudy.modules." + "splash.ui.SplashActivity");
