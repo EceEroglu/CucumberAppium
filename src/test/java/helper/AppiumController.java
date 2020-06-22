@@ -2,7 +2,6 @@ package helper;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
-import utils.MyScreenRecorder;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -48,8 +47,6 @@ public class AppiumController {
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
-		MyScreenRecorder.startRecording("start");
-
 	}
 
 	@AfterTest
@@ -60,6 +57,5 @@ public class AppiumController {
 
 		}
 
-		MyScreenRecorder.stopRecording();
 	}
 }
